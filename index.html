@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+    <title>Quize 2</title>	
+	<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+<script>
+
+
+	 function show_dropMenu(){
+	document.getElementById("dropMenu").style.display="block"
+	}
+	
+	 function show_dropMenu(){
+	document.getElementById("dropMenu").style.display="none"
+	}
+	
+	function show_Service(){
+	document.getElementById("Service").style.display="block"
+	}
+	
+		 function hide_Service(){
+	document.getElementById("Service").style.display="none"
+	}  
+	 
+
+
+</script>
+	 </head>
+	 
+	
+	 
+	 <body>
+	<!--- This is the navbar----> 
+	 <nav>
+	 <ul>
+	 <li class="dropMenu" onclick="show_dropMenu()"><span class= "fa fa-bars"></span></li>
+	 <li onclick="hide_dropMenu()">Home</li>
+	 	 <li onclick="hide_dropMenu()">About</li>
+		 	 <li onclick="hide_dropMenu()">Contact</li>
+			 	 <li>Service</li>
+	 </ul>
+	 
+	 
+	 
+	 <!------this is the logo---->
+	 <p>LOGO</p>
+	 </nav>
+	 
+	 
+	 <!---this is the header---->
+
+	 <div class ="header">
+	<center> <p>Header</p></center>
+	 </div>
+
+	  <!---this is the content---->
+	 	 <div class ="content">
+ <center>Content</center>
+	 </div>
+	 
+	 
+	 
+	  <!---this is the drop-container for fa fa-bars---->
+	 <section id="dropMenu"  class="dropdown-container"> 
+
+	 <ul>
+	 <li onclick="hide_Service()">Home</li>
+	 	 <li onclick="hide_Service()">About</li>
+		 	 <li onclick="hide_Service()">Contact</li>
+			 	 <li onclick="show_Service()">Service</li>
+	 </ul>
+
+	 </section>
+	 
+	 <!---this is the drop-container services---->
+	 
+	  <section id="Service"     class="drop-container"> 
+
+	 <ul>
+	 
+	 <li>Coding</li>
+	 	 <li>Graphics</li>
+	
+		 	 <li>Robotics</li>
+			 	 
+	 </ul>
+
+	 </section>
+	 
+	 
+	 
+	 </body>
+	 
+
+
+
+
+
+<!---this is the footer-->
+	 
+	 <footer>
+	<center> Footer</center>
+	 </footer>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 </html>
