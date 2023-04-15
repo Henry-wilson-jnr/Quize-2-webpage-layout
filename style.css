@@ -39,13 +39,10 @@ p{
 
 /* this it the header*/
 
-.header{
-	width:100%;
-}
 .header p{
 	background-color:red;
 	color:black;
-	width:100%;
+	
 	padding-top:5em;
 	height:40vh;
 	font-size:40px;
